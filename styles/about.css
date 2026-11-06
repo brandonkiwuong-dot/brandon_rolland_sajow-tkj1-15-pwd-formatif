@@ -1,0 +1,49 @@
+/* ===== FONT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f0f9ff;
+}
+
+/* ===== LATAR ===== */
+#about {
+    background-image: url('../assets/images/bg-about.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+}
+
+.about-box {
+    width: 620px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 40px;
+    border-radius: 12px;
+    border-top: 5px solid #ea580c;
+    border-bottom: 3px solid #1e3a8a;
+}
+
+/* ===== TEKS ===== */
+.about-box h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.about-box p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.about-box .closing {
+    text-align: right;
+    font-style: italic;
+    color: #ea580c;
+    font-weight: bold;
+}
