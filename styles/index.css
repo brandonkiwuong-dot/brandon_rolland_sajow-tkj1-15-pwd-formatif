@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #1e3a8a;
+    
+    animation: bg-slider 6s infinite;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@keyframes bg-slider {
+    0%, 30% { background-image: url('../assets/images/foto-profil.jpg'); }
+    33.3%, 63.3% { background-image: url('../assets/images/proyek1.jpg'); }
+    66.6%, 96.6% { background-image: url('../assets/images/proyek2.jpg'); }
+    100% { background-image: url('../assets/images/foto-profil.jpg'); }
+}
+
+header {
+    text-align: center;
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 20px;
+    border-bottom: 4px solid #ea580c;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+main {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.15);
+}
+
+h2 {
+    color: #1e3a8a;
+    font-size: 18px;
+    border-bottom: 2px solid #ea580c;
+    padding-bottom: 5px;
+}
+
+main ul {
+    line-height: 1.8;
+}
+
+main a {
+    color: #ea580c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #c2410c;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 30px;
+    border-top: 4px solid #ea580c;
+}
